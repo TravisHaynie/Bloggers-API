@@ -7,8 +7,8 @@ This is a  Blog form page where we enter form information that will be displayed
 https://travishaynie.github.io/Java-the-hut/
 
 ## screenshot
-(![Screenshot 2024-06-06 120145](https://github.com/TravisHaynie/Bloggers-API/assets/161087057/5858309d-ff77-4bb4-8d8e-56dc68c88362)
-)
+![Screenshot 2024-06-06 120145](https://github.com/TravisHaynie/Bloggers-API/assets/161087057/5858309d-ff77-4bb4-8d8e-56dc68c88362)
+
 
 
 ## sources
