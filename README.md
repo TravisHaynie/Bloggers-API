@@ -4,7 +4,7 @@
 This is a  Blog form page where we enter form information that will be displayed on our blog posts page once we hit the sumbit button. There is a  light mode dark mode on both pages and a back button once we are directed to the blog post page, so that you can enter more blog Information. The data will be saved on your posts page so if you go back it will be there once you return.
 
 ## Deployed Url
-https://travishaynie.github.io/Java-the-hut/
+https://travishaynie.github.io/Bloggers-API/
 
 ## screenshot
 ![alt text](./assets/images/Screenshot 2024-06-06 120145.png)
