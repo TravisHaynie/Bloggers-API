@@ -1,0 +1,47 @@
+ .content {
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+  
+  }
+  
+  input, textarea {
+      display:flex;
+      width: 200px;
+      border :2px solid black;
+     
+  }
+  
+  label {
+    font-family: sans-serif;
+    font-weight: bolder;
+    color:white;
+  }
+  
+
+  .button {
+    font-weight: bold;
+    border-radius: 2rem;
+    margin-top:10px;
+    width: 100%;
+} 
+
+.section {
+    width: 100%;
+    border: 5px solid black;
+}
+
+.dark {
+    background-color:#243447;
+    height: 100vh;
+    color: #bebebe;
+   
+  }
+  
+  
+   /*Light Mode */
+ .light {
+    background-color: #f0ead6;
+    color: black;
+    height: 100vh;
+  } 
