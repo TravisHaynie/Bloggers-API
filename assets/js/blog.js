@@ -2,7 +2,7 @@
 document.addEventListener('DOMContentLoaded', function() {
     const postsContainer = document.getElementById('posts');
     const storedPosts = JSON.parse(localStorage.getItem('posts')) || [];
-
+// For loop
     for (let i = 0; i < storedPosts.length; i++) {
         const postData = storedPosts[i];
         const postElement = document.createElement('div');
