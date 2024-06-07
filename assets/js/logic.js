@@ -1,11 +1,11 @@
-
+// variables
 const themeSwitcher = document.querySelector('#darkmode');
 const container = document.querySelector('.container');
 
 // Set default mode to dark
 let mode = 'dark';
 
- /*Listen for a click event on the toggle switch*/
+ // click event on my mode button
  themeSwitcher.addEventListener('click', function () {
    // Toggle between dark and light modes
    if (mode === 'dark') {

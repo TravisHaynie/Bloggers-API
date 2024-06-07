@@ -6,11 +6,11 @@ const defaultM = document.getElementById('message');
 blogForm.addEventListener('submit', function(event) {
     event.preventDefault();
 
-// Display a generic error message using defaultM
+//created variables
     const username = document.getElementById('username').value;
     const title = document.getElementById('title').value;
     const content = document.getElementById('content').value;
-
+// Display a generic error message using defaultM
     defaultM.style.display = 'block';
 
     if (username === '' || title === '' || content === '') {
@@ -26,18 +26,9 @@ blogForm.addEventListener('submit', function(event) {
 
         let posts = JSON.parse(localStorage.getItem('posts')) || [];
         posts.push(formData);
-
         // Store the updated posts array in localStorage
         localStorage.setItem('posts', JSON.stringify(posts));
-        
-        //  const formDataString = JSON.stringify(formData);
-        // localStorage.setItem("formData", formDataString);
-
-        //      // stored form data in local storage
-        //      localStorage.setItem('username', username);
-        //      localStorage.setItem('title', title);
-        //      localStorage.setItem('content', content);
-
+        // alert message
         alert("Form data saved to local storage!");
 
         // Redirect to the blog.html

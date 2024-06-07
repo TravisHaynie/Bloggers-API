@@ -1,5 +1,7 @@
+<!-- Declaration -->
 <!DOCTYPE html>
 <html lang="en">
+    <!-- Meta data -->
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,19 +9,22 @@
     <link rel="stylesheet" href="./assets/css/style.css">
     <link rel="stylesheet" href="./assets/css/form.css">
 </head>
+<!-- Body element -->
 <body class="container dark">
-     
+<!-- Header Element with <h1> Page title and Dark/Light mode button -->
 <header>
     <h1 class="h1">Personal Blog</h1>
- 
+    <button class="mode" id="darkmode">Mode</button>
 </header>
- <button class="mode" id="darkmode">Mode</button>
+<!-- Main form content with inputs/labels and submit button -->
 <main>
+    <!-- Section element with created circle Img and sub title  -->
     <section class="left">
         <div class="circle">
         <h2>Personal Blog</h2>
         </div>
     </section>
+    <!-- Main content form section -->
     <section class="content">
         <form id="form">
         <div class="text">
@@ -35,13 +40,13 @@
         <textarea type="text" id="content"></textarea>
         </div>
         <div>
-            <button class="button">Submit</button>
-            <div id = "message">Please complete Form</div>
+        <button class="button">Submit</button>
+        <div id = "message">Please complete Form</div>
         </div>
         </form>
     </section>
 </main>
-<footer></footer>
+<!-- Js links -->
 <script src= "./assets/js/script.js"></script>
 <script src= "./assets/js/logic.js"></script>
 </body>

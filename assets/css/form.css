@@ -4,21 +4,21 @@
     justify-content:space-around;
   
   }
-  
+  /* Form submission css */
   input, textarea {
       display:flex;
       width: 200px;
       border :2px solid black;
      
   }
-  
+  /* Form submission css */
   label {
     font-family: sans-serif;
     font-weight: bolder;
     color:white;
   }
   
-
+/* submit button */
   .button {
     font-weight: bold;
     border-radius: 2rem;
@@ -30,7 +30,7 @@
     width: 100%;
     border: 5px solid black;
 }
-
+/* dark mode JS */
 .dark {
     background-color:#243447;
     height: 100vh;
@@ -39,7 +39,7 @@
   }
   
   
-   /*Light Mode */
+   /*Light Mode JS */
  .light {
     background-color: #f0ead6;
     color: black;
