@@ -7,7 +7,7 @@ This is a  Blog form page where we enter form information that will be displayed
 https://travishaynie.github.io/Bloggers-API/
 
 ## screenshot
-![Screenshot 2024-06-06 120145](https://github.com/TravisHaynie/Bloggers-API/assets/161087057/5858309d-ff77-4bb4-8d8e-56dc68c88362)
+![Screenshot 2024-06-09 163315](https://github.com/TravisHaynie/Bloggers-API/assets/161087057/7428fc1f-68d7-446a-bf3a-e653dcd2e2ab)
 
 
 
